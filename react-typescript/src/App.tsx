@@ -23,6 +23,7 @@ function App() {
   ]
   return (
     <div className="App">
+      <Greet name='Gul Rehman' isLoggedIn={true}/>
         {/* <Greet name={'Gul Rehman'}/>
         <Person name={{first:"Gul",last:"Rehman"}}/>
         <PersonList names={names}/> */}
