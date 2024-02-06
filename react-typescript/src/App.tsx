@@ -2,6 +2,7 @@
 import './App.css';
 import Greet from './components/Greet'
 import Heading from './components/Heading';
+import Oscar from './components/Oscar';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
 import Status from './components/Status';
@@ -27,6 +28,9 @@ function App() {
         <PersonList names={names}/> */}
         <Status status='error' />
         <Heading>Hello I am writing in heading</Heading>
+        <Oscar>
+          <Heading>Oscar goes to Gul Rehman</Heading>
+        </Oscar>
     </div>
   );
 }
